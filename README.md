@@ -20,4 +20,4 @@ Photos used in the website
 -------
 * https://www.vecteezy.com/free-vector/grid-background (Grid Background Vectors by Vecteezy)
 * https://unsplash.com/@pankajpatel?utm_source=medium&utm_medium=referral (Code Picture by Pankaj Patel on Unsplash)
-* https://favicon.io/favicon-generator/ (Favicon generated using John Sorrentino site)# My-Website
+* https://favicon.io/favicon-generator/ (Favicon generated using John Sorrentino site)
