@@ -9,7 +9,7 @@ Bug tracker
 -----------
 
 Found a bug? Please create an issue here on GitHub! 
-https://github.com/
+https://github.com/Yorganci/Yorganci.github.io/issues
 
 Credits
 -------
