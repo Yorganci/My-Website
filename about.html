@@ -34,37 +34,42 @@
 		</h1>
 	</div>
 
-	<nav class="navbar navbar-default navbar-sticky">
+	<nav class="navbar navbar-expand-lg navbar-default navbar-sticky">
 		<div class="container-fluid">
-			
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navigationbar" aria-controls="navigationbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
+				</button>
 			</div>
-			
-			<div class="navbar-collapse collapse">
-				
-				<ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
-					<li class="active"><a href="about.html">About</a></li>
-					<li><a href="projects.html">Projects</a></li>
-					<li class="dropdown">
+			<div class="collapse navbar-collapse" id="navigationbar">
+			<ul class="nav navbar-nav mr-auto">
+				<li class="nav-item">
+				<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+				<a class="nav-link" href="about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html">Projects</a>
+				</li>
+					<li id="morepages" class="nav-item dropdown ">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="snake.html">snake</a></li>
-							<li><a href="pong.html">Pong</a></li>
-							<li><a href="breakout.html">Breakout</a></li>
-							<li><a href="tetris.html">Tetris</a></li>
-							<li><a href="frogger.html">Frogger</a></li>
-							<li><a href="start.html">Start Page</a></li>
-
+							<li><a class="nav-link" href="snake.html">snake</a></li>
+							<li><a class="nav-link" href="pong.html">Pong</a></li>
+							<li><a class="nav-link" href="breakout.html">Breakout</a></li>
+							<li><a class="nav-link" href="tetris.html">Tetris</a></li>
+							<li><a class="nav-link" href="frogger.html">Frogger</a></li>
+							<li><a class="nav-link" href="start.html">Start Page</a></li>
 						</ul>
 					</li>
-					<li><a href="blog.html">Resources</a></li>
-				</ul>
-			
-			</div><!--/.nav-collapse -->			
-		</div>	
-	</nav>
+				<li class="nav-item">
+					<a class="nav-link" href="blog.html">Resources</a>
+				</li>
+			</ul>
+			</div>
+		</div>
+	  </nav>
 </header>
 
 <main id="main">

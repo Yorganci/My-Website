@@ -105,6 +105,24 @@ canvas {
 
 
 **********************************************************************/
+@media screen and (max-width: 600px) {
+  #morepages {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+  .parent {
+    position: relative;
+    height: 1025px;
+  }
+  .parentProj {
+    position: relative;
+    height: 2300px;
+  }
+}
 .navbar {
   border-width: 1px 0;
   -webkit-border-radius: 0;
