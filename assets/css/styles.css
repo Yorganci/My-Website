@@ -116,11 +116,11 @@ canvas {
   }
   .parent {
     position: relative;
-    height: 1400px;
+    height: 1700px;
   }
   .parentProj {
     position: relative;
-    height: 2500px;
+    height: 2300px;
   }
 }
 .navbar {
